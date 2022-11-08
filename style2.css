@@ -1,0 +1,73 @@
+body{
+background-image: url('background.png');	
+margin: 0;
+padding: 0;
+box-sizing: border-box;	
+overflow-x: hidden;
+font-family: 'Lato', sans-serif;
+background-size: cover;
+background-color: skyblue;
+height: 100vh;
+width: 100%;
+text-shadow:     
+	-1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.heading{
+height: 50em;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.heading h1{
+font-size: 60px;
+font-weight: 300;
+color: white;
+font-family: 'Montserrat', sans-serif;
+}
+
+.heading h5{
+font-size: 20px;
+color: white;
+}
+
+.about{
+padding-top: 250px;
+}
+
+.about h3{
+	color: white;
+}
+
+p{
+	font-family: monospace;
+	color: white;
+	text-shadow:     
+	-1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
+}
+#bolde{
+font-weight: bold;
+font-size: 20px;
+font-family: monospace;
+text-shadow:     
+	-1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+span{
+	color: black;
+	text-shadow:     
+	-1px -1px 0 #FFFF,
+    1px -1px 0 #FFFF,
+    -1px 1px 0 #FFFF,
+    1px 1px 0 #FFFF;
+}
